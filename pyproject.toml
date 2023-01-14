@@ -2,9 +2,31 @@
 name = "sqlalchemy-create-table-as"
 version = "0.1.0"
 description = "module provide *create table as* statement"
-authors = ["Nedosekov Ivan <ivan-nedd@mail.ru>"]
+authors = [{name="Nedosekov Ivan", email="ivan-nedd@mail.ru"}]
+license = "MIT"
 readme = "README.md"
 packages = [{include = "sqlalchemy_create_table_as"}]
+classifiers = [
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: Implementation :: PyPy',
+        'Programming Language :: SQL',
+        'Topic :: Database',
+        'Topic :: Database :: Database Engines/Servers',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+    
+
+[project.urls]
+"Homepage" = "https://github.com/GrozniyToaster/sqlalchemy-create-table-as" 
 
 [tool.poetry.dependencies]
 python = "^3.6"
