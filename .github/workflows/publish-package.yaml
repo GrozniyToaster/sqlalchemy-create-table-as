@@ -6,7 +6,7 @@ on:
       - "*"
 
 jobs:
-  Publish to pipy:
+  Publish_to_pipy:
     runs-on: ubuntu-latest
     steps:
       - name: Prepare env
