@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sqlalchemy-create-table-as"
+version = "0.1.0"
+description = "module provide *create table as* statement"
+authors = ["Nedosekov Ivan <ivan-nedd@mail.ru>"]
+readme = "README.md"
+packages = [{include = "sqlalchemy_create_table_as"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+sqlalchemy = ">=1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
