@@ -24,4 +24,13 @@ Examples:
 
 ## Installation
 
-...
+`sqlalchemy-create-table-as` is available on PyPI and can be installed via `pip`
+
+```console
+pip install sqlalchemy-create-table-as
+```
+
+## Acknowledgements
+Package inspired by [sqlalchemy-views](https://pypi.org/project/sqlalchemy-views/) 
+
+And thank you to the various [contributors](https://github.com/GrozniyToaster/sqlalchemy-create-table-as/pulse)!
