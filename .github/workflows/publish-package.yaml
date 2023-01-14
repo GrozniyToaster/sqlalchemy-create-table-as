@@ -20,3 +20,9 @@ jobs:
 
       - name: Publish
         run: poetry publish  
+  
+  ls_job:
+      runs-on: ubuntu-latest
+      steps:
+        - run: ls .
+        - run: ls ..
