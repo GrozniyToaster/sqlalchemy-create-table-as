@@ -15,14 +15,7 @@ jobs:
       - name: Config poetry 
         run: poetry config pypi-token.pypi ${{ secrets.PYPI_API_TOKEN }}
       
-      - name: Build
-        run: poetry build
-
       - name: Publish
-        run: poetry publish  
+        run: poetry publish --build 
+        uses: actions/checkout@v3
   
-  ls_job:
-      runs-on: ubuntu-latest
-      steps:
-        - run: ls .
-        - run: ls ..
