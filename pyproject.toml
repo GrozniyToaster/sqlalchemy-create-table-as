@@ -2,7 +2,7 @@
 name = "sqlalchemy-create-table-as"
 version = "0.2.0"
 description = "module provide *create table as* statement"
-authors = [{name="Nedosekov Ivan", email="ivan-nedd@mail.ru"}]
+authors = ["Nedosekov Ivan <ivan-nedd@mail.ru>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "sqlalchemy_create_table_as"}]
